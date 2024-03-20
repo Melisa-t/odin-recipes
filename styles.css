@@ -1,7 +1,55 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html{
     font-family: Tahoma;
 }
 
 h1{
     font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(209, 72, 78);
 }
+
+
+.no-style{
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+
+
+}
+
+.no-style li {
+    margin: 30px 0px;
+}
+
+.pot{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+a:hover{
+    color: rgb(105, 80, 109);
+}
+
+a:link{
+    color:rgb(248, 92, 118);
+}
+
+a:visited{
+    color: rgb(153, 116, 159);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
