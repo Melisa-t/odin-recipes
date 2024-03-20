@@ -42,14 +42,62 @@ a:hover{
 }
 
 a:link{
-    color:rgb(248, 92, 118);
+    color:rgb(209, 72, 78);
 }
 
 a:visited{
-    color: rgb(153, 116, 159);
+    color: rgb(207, 128, 132);
 }
 
 body{
     background-color: rgb(255, 255, 255);
 }
 
+.food-pic{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 50px; 
+}
+
+.text{
+    padding-left: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+h3, h4, p, footer {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.ingredients li{
+    list-style: none;
+}
+
+
+h3, h4 {
+    color: rgb(255, 127, 134);
+}
+
+strong{
+    color:rgb(255, 160, 176);
+}
+li{
+ margin-bottom: 5px;
+}
+
+footer{
+    margin: 20px;
+    text-align: right;
+}
+
+.steps ol, .layer ol, p {
+    padding-left: 60px;
+}
+p{
+    padding-left: 40px;
+    margin: 0;
+}
